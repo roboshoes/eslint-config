@@ -1,0 +1,22 @@
+{
+  "name": "@roboshoes/eslint-config",
+  "version": "1.0.0",
+  "description": "Opinionated eslint settings for typescript.",
+  "main": "index.js",
+  "author": "Mathias Paumgarten",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "tslint"
+  ],
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin-tslint": "^2.15.0",
+    "@typescript-eslint/eslint-plugin": "^2.15.0",
+    "eslint": ">= 3",
+    "tslint": "^5.20.1"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^2.15.0"
+  }
+}
