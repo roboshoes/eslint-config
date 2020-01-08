@@ -1,12 +1,12 @@
 # Personal Eslint Config
 
-Install via:
+Install via
 
 ```sh
 npm install --save-dev @roboshoes/eslint-config
 ```
 
-Define you `.eslintrc.js` as the following:
+Define your `.eslintrc.js` as the following:
 
 ```js
 module.exports = {
