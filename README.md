@@ -3,7 +3,7 @@
 Install via
 
 ```sh
-npm install --save-dev @roboshoes/eslint-config
+npm install --save-dev @roboshoes/eslint-config eslint@~7.1.0 tslint@~6.1.2
 ```
 
 Define your `.eslintrc.js` as the following:
@@ -27,14 +27,12 @@ module.exports = {
 ```
 
 
-It depends on some peerDependencies such as:
+It has some peerDependencies such as:
 
 ```json
 {
-    "eslint": ">= 3",
-    "@typescript-eslint/eslint-plugin": "^2.15.0",
-    "@typescript-eslint/eslint-plugin-tslint": "^2.15.0",
-    "tslint": "^5.20.1"
+    "eslint": "^7.1.0",
+    "tslint": "^6.1.2"
 }
 ```
 

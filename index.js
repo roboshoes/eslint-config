@@ -7,6 +7,7 @@ module.exports = {
     ],
     rules: {
         "@typescript-eslint/class-name-casing": "error",
+        "@typescript-eslint/ban-ts-ignore": "off",
         "@typescript-eslint/explicit-member-accessibility": [
             "off",
             {
