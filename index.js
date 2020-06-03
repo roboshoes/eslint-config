@@ -3,10 +3,8 @@ module.exports = {
     extends: [ "plugin:@typescript-eslint/recommended" ],
     plugins: [
         "@typescript-eslint",
-        "@typescript-eslint/tslint"
     ],
     rules: {
-        "@typescript-eslint/class-name-casing": "error",
         "@typescript-eslint/ban-ts-ignore": "off",
         "@typescript-eslint/explicit-member-accessibility": [
             "off",
@@ -47,41 +45,6 @@ module.exports = {
             {
                 allowExpressions: true,
                 allowTypedFunctionExpressions: true,
-            }
-        ],
-        "@typescript-eslint/tslint/config": [
-            "error",
-            {
-                "rules": {
-                    "comment-format": [
-                        true,
-                        "check-space"
-                    ],
-                    "component-class-suffix": true,
-                    "deprecation": true,
-                    "directive-class-suffix": true,
-                    "import-blacklist": [
-                        true,
-                        "rxjs/Rx"
-                    ],
-                    "import-spacing": true,
-                    "no-input-rename": true,
-                    "no-output-on-prefix": true,
-                    "no-output-rename": true,
-                    "no-redundant-jsdoc": true,
-                    "one-line": [
-                        true,
-                        "check-open-brace",
-                        "check-catch",
-                        "check-else",
-                        "check-whitespace"
-                    ],
-                    "use-host-property-decorator": true,
-                    "use-input-property-decorator": true,
-                    "use-life-cycle-interface": true,
-                    "use-output-property-decorator": true,
-                    "use-pipe-transform-interface": true
-                }
             }
         ],
         "arrow-body-style": "error",
